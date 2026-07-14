@@ -18,7 +18,7 @@ def calc(b, a, D):
         return x
     elif D < 0:
         real = -b / (2 * a)
-        imag = (-D) ** 0.5 / (2 * a)  # (-D) положительный, корень из него
+        imag = (-D) ** 0.5 / (2 * a) 
         x1 = complex(real, imag)
         x2 = complex(real, -imag)
         return x1, x2
